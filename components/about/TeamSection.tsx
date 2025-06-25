@@ -9,7 +9,7 @@ const teamMembers = [
     name: 'Noah Shaffer',
     role: 'Full Stack Developer',
     specialization: 'Web Development & Security Architecture',
-    image: '/api/placeholder/300/300',
+    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
     bio: 'Experienced full-stack developer with expertise in modern web technologies and secure application development. Specializes in creating robust, scalable solutions with security built-in from the ground up.',
     skills: [
       'React/Next.js Development',
@@ -35,7 +35,7 @@ const teamMembers = [
     name: 'Erwin Bruno',
     role: 'Tech Lead & Offensive Security Operator',
     specialization: 'Penetration Testing & Security Operations',
-    image: '/api/placeholder/300/300',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
     bio: 'Veteran cybersecurity professional and certified ethical hacker with extensive experience in penetration testing, vulnerability assessment, and security operations. Military background brings discipline and precision to security assessments.',
     skills: [
       'Penetration Testing',
@@ -68,7 +68,7 @@ const teamMembers = [
     name: 'Mathew [Last Name]',
     role: 'Business Analyst',
     specialization: 'ROI Analysis & Pricing Strategy',
-    image: '/api/placeholder/300/300',
+    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
     bio: 'Strategic business analyst with deep expertise in cybersecurity ROI modeling, risk assessment, and pricing optimization. Helps organizations understand the business value of security investments and develop cost-effective protection strategies.',
     skills: [
       'Risk Assessment & Analysis',

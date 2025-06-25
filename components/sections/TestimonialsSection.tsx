@@ -9,7 +9,7 @@ const testimonials = [
     name: 'Sarah Johnson',
     role: 'CTO',
     company: 'TechFlow Solutions',
-    image: '/api/placeholder/60/60',
+    image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=60&q=80',
     rating: 5,
     content: 'Sentinel Shield transformed our cybersecurity posture. Their CIS Tier 2 implementation was thorough and professional. The team\'s expertise in penetration testing uncovered critical vulnerabilities we didn\'t know existed.'
   },
@@ -18,7 +18,7 @@ const testimonials = [
     name: 'Michael Chen',
     role: 'IT Director',
     company: 'DataVault Corp',
-    image: '/api/placeholder/60/60',
+    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=60&q=80',
     rating: 5,
     content: 'Outstanding service! The penetration testing revealed several security gaps, and their detailed remediation plan was invaluable. Erwin\'s expertise and certifications gave us complete confidence in their capabilities.'
   },
@@ -27,7 +27,7 @@ const testimonials = [
     name: 'Emily Rodriguez',
     role: 'Security Manager',
     company: 'CloudSecure Inc',
-    image: '/api/placeholder/60/60',
+    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=60&q=80',
     rating: 5,
     content: 'The enterprise defense package exceeded our expectations. 24/7 monitoring and the dedicated consultant have been game-changers for our security operations. Highly recommend for any serious organization.'
   }
