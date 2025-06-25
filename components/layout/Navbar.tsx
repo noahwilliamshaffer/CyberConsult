@@ -1,25 +1,26 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Menu, X, Shield, User, LogOut } from 'lucide-react'
 import { useSupabase } from '@/app/providers'
+import type { User as SupabaseUser } from '@supabase/supabase-js'
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const { supabase } = useSupabase()
   const pathname = usePathname()
-  const [user, setUser] = useState(null)
+  const [user, setUser] = useState<SupabaseUser | null>(null)
 
   // Get user state
-  useState(() => {
+  useEffect(() => {
     const getUser = async () => {
       const { data: { user } } = await supabase.auth.getUser()
       setUser(user)
     }
     getUser()
-  })
+  }, [supabase])
 
   const navigation = [
     { name: 'Home', href: '/' },

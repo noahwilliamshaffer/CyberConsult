@@ -1,11 +1,11 @@
 'use client'
 
 import { createContext, useContext, useEffect, useState } from 'react'
-import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
+import { createBrowserClient } from '@supabase/ssr'
 import { useRouter } from 'next/navigation'
 
 type SupabaseContext = {
-  supabase: ReturnType<typeof createClientComponentClient>
+  supabase: any
 }
 
 const Context = createContext<SupabaseContext | undefined>(undefined)
@@ -15,7 +15,12 @@ export default function SupabaseProvider({
 }: {
   children: React.ReactNode
 }) {
-  const [supabase] = useState(() => createClientComponentClient())
+  const [supabase] = useState(() => 
+    createBrowserClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://placeholder.supabase.co',
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'placeholder-key'
+    )
+  )
   const router = useRouter()
 
   useEffect(() => {
