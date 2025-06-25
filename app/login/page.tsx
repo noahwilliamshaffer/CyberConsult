@@ -68,7 +68,7 @@ export default function LoginPage() {
           </h2>
           <p className="mt-2 text-sm text-slate-400">
             {isSignUp 
-              ? 'Join SentinelStack Security for expert cybersecurity services'
+              ? 'Join Sentinel Shield for expert cybersecurity services'
               : 'Access your cybersecurity dashboard and services'
             }
           </p>

@@ -11,7 +11,7 @@ const testimonials = [
     company: 'TechFlow Solutions',
     image: '/api/placeholder/60/60',
     rating: 5,
-    content: 'SentinelStack Security transformed our cybersecurity posture. Their CIS Tier 2 implementation was thorough and professional. The team\'s expertise in penetration testing uncovered critical vulnerabilities we didn\'t know existed.'
+    content: 'Sentinel Shield transformed our cybersecurity posture. Their CIS Tier 2 implementation was thorough and professional. The team\'s expertise in penetration testing uncovered critical vulnerabilities we didn\'t know existed.'
   },
   {
     id: 2,

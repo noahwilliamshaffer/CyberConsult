@@ -9,8 +9,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: {
-    default: 'SentinelStack Security - Cybersecurity Consulting & Penetration Testing',
-    template: '%s | SentinelStack Security'
+    default: 'Sentinel Shield - Cybersecurity Consulting & Penetration Testing',
+    template: '%s | Sentinel Shield'
   },
   description: 'Professional cybersecurity consulting services including CIS implementation, web application penetration testing, and enterprise security solutions. Protect your business with expert cybersecurity services.',
   keywords: [
@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     'vulnerability assessment',
     'security audit'
   ],
-  authors: [{ name: 'SentinelStack Security Team' }],
-  creator: 'SentinelStack Security',
-  publisher: 'SentinelStack Security',
+  authors: [{ name: 'Sentinel Shield Team' }],
+  creator: 'Sentinel Shield',
+  publisher: 'Sentinel Shield',
   formatDetection: {
     email: false,
     address: false,
@@ -41,15 +41,15 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://sentinelstack-security.vercel.app',
-    siteName: 'SentinelStack Security',
-    title: 'SentinelStack Security - Cybersecurity Consulting & Penetration Testing',
+    siteName: 'Sentinel Shield',
+    title: 'Sentinel Shield - Cybersecurity Consulting & Penetration Testing',
     description: 'Professional cybersecurity consulting services including CIS implementation, web application penetration testing, and enterprise security solutions.',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'SentinelStack Security - Cybersecurity Consulting',
+        alt: 'Sentinel Shield - Cybersecurity Consulting',
       },
     ],
   },

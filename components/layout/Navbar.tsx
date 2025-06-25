@@ -41,7 +41,7 @@ export function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
               <Shield className="h-8 w-8 text-cyber-500" />
-              <span className="text-xl font-bold text-white">SentinelStack</span>
+              <span className="text-xl font-bold text-white">Sentinel Shield</span>
             </Link>
           </div>
 

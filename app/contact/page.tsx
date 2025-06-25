@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Clock, Shield, Send } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Contact Us - Get Expert Cybersecurity Consultation',
-  description: 'Contact SentinelStack Security for professional cybersecurity consulting, penetration testing, and CIS implementation services. Get your free security assessment today.',
+  description: 'Contact Sentinel Shield for professional cybersecurity consulting, penetration testing, and CIS implementation services. Get your free security assessment today.',
   keywords: [
     'cybersecurity contact',
     'security consultation',
@@ -150,7 +150,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold text-white">Email</h4>
-                      <p className="text-slate-300">contact@sentinelstack.com</p>
+                      <p className="text-slate-300">contact@sentinelshield.com</p>
                       <p className="text-slate-400 text-sm mt-1">Response within 24 hours</p>
                     </div>
                   </div>

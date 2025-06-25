@@ -12,7 +12,7 @@ export function Footer() {
           <div className="col-span-1 lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <Shield className="h-8 w-8 text-cyber-500" />
-              <span className="text-xl font-bold text-white">SentinelStack Security</span>
+              <span className="text-xl font-bold text-white">Sentinel Shield</span>
             </div>
             <p className="text-slate-400 text-sm max-w-md mb-6">
               Professional cybersecurity consulting services providing comprehensive security solutions, 
@@ -21,7 +21,7 @@ export function Footer() {
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-slate-400 text-sm">
                 <Mail className="h-4 w-4" />
-                <span>contact@sentinelstack-security.com</span>
+                <span>contact@sentinelshield.com</span>
               </div>
               <div className="flex items-center space-x-2 text-slate-400 text-sm">
                 <Phone className="h-4 w-4" />
@@ -129,7 +129,7 @@ export function Footer() {
                 </Link>
               </div>
               <p className="text-slate-400 text-sm">
-                © {currentYear} SentinelStack Security. All rights reserved.
+                © {currentYear} Sentinel Shield. All rights reserved.
               </p>
             </div>
           </div>

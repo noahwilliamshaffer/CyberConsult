@@ -25,7 +25,7 @@ const teamMembers = [
       'Certified Secure Software Developer'
     ],
     experience: '8+ years',
-    email: 'noah@sentinelstack-security.com',
+    email: 'noah@sentinelshield.com',
     linkedin: 'https://linkedin.com/in/noah-shaffer',
     github: 'https://github.com/noahwilliamshaffer',
     color: 'from-blue-500 to-blue-600'
@@ -57,7 +57,7 @@ const teamMembers = [
       'OSHA 10-Hour Certificate'
     ],
     experience: '12+ years',
-    email: 'erwin@sentinelstack-security.com',
+    email: 'erwin@sentinelshield.com',
     linkedin: 'https://linkedin.com/in/erwin-bruno',
     github: 'https://github.com/erwin-bruno',
     color: 'from-cyber-500 to-cyber-600',
@@ -85,7 +85,7 @@ const teamMembers = [
       'ISO 27001 Lead Implementer'
     ],
     experience: '10+ years',
-    email: 'mathew@sentinelstack-security.com',
+    email: 'mathew@sentinelshield.com',
     linkedin: 'https://linkedin.com/in/mathew-analyst',
     github: 'https://github.com/mathew-analyst',
     color: 'from-purple-500 to-purple-600'

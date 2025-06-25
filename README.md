@@ -1,4 +1,4 @@
-# 🔐 SentinelStack Security
+# 🔐 Sentinel Shield
 
 A professional cybersecurity consulting business website built with Next.js 14, Supabase, and Stripe integration.
 
@@ -127,7 +127,7 @@ This project is configured for deployment on Vercel:
 
 ## 📄 License
 
-This project is private and proprietary to SentinelStack Security.
+This project is private and proprietary to Sentinel Shield.
 
 ## 🤝 Contributing
 

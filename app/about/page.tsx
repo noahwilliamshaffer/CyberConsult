@@ -4,7 +4,7 @@ import { TeamSection } from '@/components/about/TeamSection'
 
 export const metadata: Metadata = {
   title: 'About Us - Expert Cybersecurity Team',
-  description: 'Meet the certified cybersecurity experts behind SentinelStack Security. Our team brings decades of experience in penetration testing, security consulting, and enterprise protection.',
+  description: 'Meet the certified cybersecurity experts behind Sentinel Shield. Our team brings decades of experience in penetration testing, security consulting, and enterprise protection.',
   keywords: [
     'cybersecurity team',
     'security experts',
